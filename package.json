@@ -20,7 +20,6 @@
   "homepage": "https://github.com/wertlex/mocha-recursive-issue#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.0.4",
-    "ts-node": "^5.0.1"
+    "mocha": "^5.0.4"
   }
 }
