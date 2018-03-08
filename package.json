@@ -6,7 +6,9 @@
   "scripts": {
     "test-simple": "mocha ./test",
     "test-recursive": "mocha ./test --recursive",
-    "test-wildcard-recursive": "mocha ./test/**/*.js --recursive"
+    "test-wildcard-recursive": "mocha ./test/**/*.js --recursive",
+    "COMMENT": "NOTE, there is quotes. Check: https://github.com/mochajs/mocha/issues/3136",
+    "correct-wildcard-recursive": "mocha './test/**/*.js' --recursive"
   },
   "repository": {
     "type": "git",
